@@ -47,7 +47,7 @@ expressApp.use(function (req, res, next) {
 })
 
 const httpServer = createServer(expressApp)
-httpServer.listen(4000, '0.0.0.0')
+httpServer.listen(3000, '0.0.0.0')
 httpServer.on('error', e => console.log('error'))
 httpServer.on('listening', () => console.log('listening.....'))
 const io = new Server(httpServer, {

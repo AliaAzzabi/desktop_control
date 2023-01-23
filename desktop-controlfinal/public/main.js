@@ -156,7 +156,7 @@ const createWindow = () => {
         }
     })
 
-    mainWindow.loadURL('https://e8e6-2607-fea8-bde2-400-755b-a04e-53f6-19fa.ngrok.io/')
+      mainWindow.loadURL('https://localhost:3000/')
 
     mainWindow.once('ready-to-show', () => {
         displays = screen.getAllDisplays()
